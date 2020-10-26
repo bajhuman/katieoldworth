@@ -4,108 +4,49 @@
 
 <head>
 	<title>Katie Oldworth</title>
-	<style>
-	canvas{
-		-moz-user-select: none;
-		-webkit-user-select: none;
-		-ms-user-select: none;
-	}
-
-    .nav{
-        float:left;
-        width:100%;
-        height:50px;
-        padding-top:20px;
-
-    }
-    .subtitle{
-        position:relative;
-        float:none;
-        padding-left:30%;
-        padding-right:30%;
-        width:40%;
-        height:50px;
-        
-    }
-    .title{
-        text-align:center;
-        font-size:40px;
-        margin:0%;
-        font-family: serif;
-        color:rgb(81, 87, 81);
-    }
-    .container{
-        position:absolute;
-        top:30%;
-        left:30px;
-        width:100%;
-        height:50%;
-        float:none;
-        border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-    }
-    ul {
-	width: 100%;
-	list-style: none;
-	padding-top: 20px;
-    color:rgb(81, 87, 81);
-	}
-    li{
-        display:flex;
-        float:left;
-        padding-left:10%;
-        padding-right:10%;
-    }
-	</style>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<div class="nav">
-        <p class="title">Katie Oldworth</p>
+	<nav>
+        <div class="logo">
+            <ul>
+                <li><a href="index.html">Katie Oldworth</a></li>
+                <li><h6>Social media manager</h6></li>
 
+            </ul>
+            
+        </div>
+        <ul class="nav-links"> 
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+    
+        </div>
+    </nav>
+    
+    <div class="box1">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque odio, nisi voluptatem dolorem repellat quam asperiores. Dolor, rerum et. Error nesciunt recusandae ab omnis explicabo asperiores animi, aliquid incidunt nam.</p>
+        <a href="contact.html">CONTACT ME</a>
     </div>
     
-    <div class = "subtitle">
-        <ul>
-            <li><p>Hello</p></li>
-            <li><p>Hello</p></li>
-            <li><p>Hello</p></li>
-        </ul>
-   
-  
-     
-
+    <div class="box2">
+        <img src = "assets/IMG_2321.jpeg">
+    </div>
+    <div class="outerbox">
+        
     </div>
 
-    <div class="container">
-        <form action="action_page.php">
-      
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-      
-        </form>
-      </div>
 
-	<script>	
+        
 
-		
-	</script>
+    <script src="app.js"></script>
+    
 </body>
 
 </html>
