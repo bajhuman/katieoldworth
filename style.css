@@ -120,14 +120,14 @@ nav{
 .outerbox{
     position: absolute;
     top:20vh;
-    left:10vh;
+    left:10vw;
     width:85%;
     height:80vh;
     background-color: rgb(206, 205, 224);
     z-index: -1;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:768){
     body{
         overflow-x: hidden;
     }
