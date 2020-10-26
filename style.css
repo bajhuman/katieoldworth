@@ -16,8 +16,7 @@ nav{
     display:flex;
     justify-content: space-around;
     align-items:center;
-    /* min-height: 20vh; */
-    height:100px;
+    min-height: 20vh;
     background-color: #cca2a2;
 }
 .logo{
@@ -146,9 +145,9 @@ nav{
         
     }
 
-    .nav-links li{
-        /* opacity:0%; */
-    }
+/*     .nav-links li{
+        opacity:0%;
+    } */
     .burger{
         display:block;
     }
